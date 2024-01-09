@@ -1,0 +1,66 @@
+[
+  {
+    "cve_id": "CVE-2002-0367",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
+    "cve_id": "CVE-2008-0655",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
+    "cve_id": "CVE-2007-5659",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-119"
+    ]
+  },
+  {
+    "cve_id": "CVE-2008-3431",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-264"
+    ]
+  },
+  {
+    "cve_id": "CVE-2022-28810",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-78",
+      "CWE-798"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-27524",
+    "cwe_source": "security@apache.org",
+    "cwe_array": [
+      "CWE-1188"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-29298",
+    "cwe_source": "psirt@adobe.com",
+    "cwe_array": [
+      "CWE-284"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-27992",
+    "cwe_source": "security@zyxel.com.tw",
+    "cwe_array": [
+      "CWE-78"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-27997",
+    "cwe_source": "psirt@fortinet.com",
+    "cwe_array": [
+      "CWE-122"
+    ]
+  }
+]
