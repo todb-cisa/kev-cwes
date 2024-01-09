@@ -2,9 +2,6 @@
 
 Some tooling to collect CWEs, and their provenance, for KEV items.
 
-# Notes
-
-
 # Goals
 
 Produce a list of CVEs that are on the KEV, and annotate them with associated CWEs, in this order of preference:
@@ -24,12 +21,13 @@ CWE annoations must always be treated as arrays from a single source.
 * Handle the case when there are three sources. Currently, the only sources observed are NVD and the issuing CNA, but that might change.
   - This will probably only change when NVD becomes a proper ADP, and then other ADPs show up to provide their own CWEs.
   - When that happens, I suspect the JSON format will change anyway, so this will need to be updated for the new version.
+* Handle the case where there are no weaknesses. I don't think this is possible normally, but it might pop up for very fresh CVEs.
 
 # Files
 
 * `kev-cves.json` : The entire NVD list of KEV CVEs, according to NIST.
-* `samples-kev-cves.json` : A small set that represents all seen value types for weaknesses.
-* `samples-final.json` : The desired output of whatever scripts I write, when applied to `samples-final.json`
+* `samples-kev-cves.json` : A small set that represents all observed value types for weaknesses.
+* `samples-final.json` : The desired output when applied to `samples-final.json`
 
 # Test data
 
@@ -49,7 +47,7 @@ Because it's JSON, the ordering of elements shouldn't matter. Don't rely on a hu
 
 # Pipeline
 
-Here's the basic pipeline, all using jq. Convert this to a real script someday.
+Here's the basic pipeline, all using jq. Convert this to a real programming lanague someday. It's just bash.
 
 ## Collect Data
 
