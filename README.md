@@ -57,7 +57,7 @@ First off, let's just collect the raw data from NVD:
 
 But we really just need to filter just for the CWEs and their sources:
 
-`curl "https://services.nvd.nist.gov/rest/json/cves/2.0?hasKev" | jq '[.vulnerabilities[] | {id: .cve.id, weaknesses: .cve.weaknesses}]' > kev-cwes-nvd.json`
+`jq '[.vulnerabilities[] | {id: .cve.id, weaknesses: .cve.weaknesses}]' kev-cves.json > kev-cwes-nvd.json`
 
 ## Normalize missing CWEs
 
