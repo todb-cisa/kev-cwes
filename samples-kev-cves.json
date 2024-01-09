@@ -1,0 +1,2091 @@
+{
+	"resultsPerPage": 1061,
+	"startIndex": 0,
+	"totalResults": 1061,
+	"format": "NVD_CVE",
+	"version": "2.0",
+	"timestamp": "2024-01-09T17:29:04.363",
+	"vulnerabilities": [
+		{
+			"cve": {
+				"id": "CVE-2002-0367",
+				"sourceIdentifier": "cve@mitre.org",
+				"published": "2002-06-25T04:00:00.000",
+				"lastModified": "2018-10-12T21:31:21.067",
+				"vulnStatus": "Modified",
+				"cisaExploitAdd": "2022-03-03",
+				"cisaActionDue": "2022-03-24",
+				"cisaRequiredAction": "Apply updates per vendor instructions.",
+				"cisaVulnerabilityName": "Microsoft Windows Privilege Escalation Vulnerability",
+				"descriptions": [
+					{
+						"lang": "en",
+						"value": "smss.exe debugging subsystem in Windows NT and Windows 2000 does not properly authenticate programs that connect to other programs, which allows local users to gain administrator or SYSTEM privileges by duplicating a handle to a privileged process, as demonstrated by DebPloit."
+					}
+				],
+				"metrics": {
+					"cvssMetricV2": [
+						{
+							"source": "nvd@nist.gov",
+							"type": "Primary",
+							"cvssData": {
+								"version": "2.0",
+								"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+								"accessVector": "LOCAL",
+								"accessComplexity": "LOW",
+								"authentication": "NONE",
+								"confidentialityImpact": "COMPLETE",
+								"integrityImpact": "COMPLETE",
+								"availabilityImpact": "COMPLETE",
+								"baseScore": 7.2
+							},
+							"baseSeverity": "HIGH",
+							"exploitabilityScore": 3.9,
+							"impactScore": 10.0,
+							"acInsufInfo": false,
+							"obtainAllPrivilege": true,
+							"obtainUserPrivilege": false,
+							"obtainOtherPrivilege": false,
+							"userInteractionRequired": false
+						}
+					]
+				},
+				"weaknesses": [
+					{
+						"source": "nvd@nist.gov",
+						"type": "Primary",
+						"description": [
+							{
+								"lang": "en",
+								"value": "NVD-CWE-Other"
+							}
+						]
+					}
+				],
+				"configurations": [
+					{
+						"nodes": [
+							{
+								"operator": "OR",
+								"negate": false,
+								"cpeMatch": [
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:o:microsoft:windows_2000:*:*:*:*:*:*:*:*",
+										"matchCriteriaId": "4E545C63-FE9C-4CA1-AF0F-D999D84D2AFD"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:o:microsoft:windows_nt:4.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "E53CDA8E-50A8-4509-B070-CCA5604FFB21"
+									}
+								]
+							}
+						]
+					}
+				],
+				"references": [
+					{
+						"url": "http://marc.info/?l=ntbugtraq&m=101614320402695&w=2",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.iss.net/security_center/static/8462.php",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Patch",
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://www.securityfocus.com/archive/1/262074",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Exploit",
+							"Patch",
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://www.securityfocus.com/archive/1/264441",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.securityfocus.com/archive/1/264927",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.securityfocus.com/bid/4287",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "https://docs.microsoft.com/en-us/security-updates/securitybulletins/2002/ms02-024",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A158",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A76",
+						"source": "cve@mitre.org"
+					}
+				]
+			}
+		},
+		{
+			"cve": {
+				"id": "CVE-2008-0655",
+				"sourceIdentifier": "cve@mitre.org",
+				"published": "2008-02-07T21:00:00.000",
+				"lastModified": "2018-10-30T16:25:16.967",
+				"vulnStatus": "Modified",
+				"cisaExploitAdd": "2022-06-08",
+				"cisaActionDue": "2022-06-22",
+				"cisaRequiredAction": "Apply updates per vendor instructions.",
+				"cisaVulnerabilityName": "Adobe Acrobat and Reader Unspecified Vulnerability",
+				"descriptions": [
+					{
+						"lang": "en",
+						"value": "Multiple unspecified vulnerabilities in Adobe Reader and Acrobat before 8.1.2 have unknown impact and attack vectors."
+					},
+					{
+						"lang": "es",
+						"value": "Múltiples vulnerabilidades no especificadas en Adobe Reader y Acrobat anterior a la versión 8.1.2 tienen vectores de impacto y ataque desconocidos."
+					}
+				],
+				"metrics": {
+					"cvssMetricV2": [
+						{
+							"source": "nvd@nist.gov",
+							"type": "Primary",
+							"cvssData": {
+								"version": "2.0",
+								"vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+								"accessVector": "NETWORK",
+								"accessComplexity": "MEDIUM",
+								"authentication": "NONE",
+								"confidentialityImpact": "COMPLETE",
+								"integrityImpact": "COMPLETE",
+								"availabilityImpact": "COMPLETE",
+								"baseScore": 9.3
+							},
+							"baseSeverity": "HIGH",
+							"exploitabilityScore": 8.6,
+							"impactScore": 10.0,
+							"acInsufInfo": false,
+							"obtainAllPrivilege": false,
+							"obtainUserPrivilege": false,
+							"obtainOtherPrivilege": false,
+							"userInteractionRequired": true
+						}
+					]
+				},
+				"weaknesses": [
+					{
+						"source": "nvd@nist.gov",
+						"type": "Primary",
+						"description": [
+							{
+								"lang": "en",
+								"value": "NVD-CWE-noinfo"
+							}
+						]
+					}
+				],
+				"configurations": [
+					{
+						"nodes": [
+							{
+								"operator": "OR",
+								"negate": false,
+								"cpeMatch": [
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:*:*:*:*:*:*:*:*",
+										"versionEndIncluding": "8.1.1",
+										"matchCriteriaId": "3A068220-ADFE-46F0-AE35-3355BEFEECD9"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:3.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "465F9134-DD86-4F13-8C39-949BE6E7389A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:3.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "BB041EDF-EFF8-4AA6-8D59-411975547534"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:4.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "4C05F6A5-0FB3-489B-9B8B-64C569C03D7A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:4.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "AABA4FE3-662B-4956-904D-45086E000890"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:4.0.5a:*:*:*:*:*:*:*",
+										"matchCriteriaId": "998CD79C-458E-46A8-8261-1C40C53D9FA5"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:4.0.5c:*:*:*:*:*:*:*",
+										"matchCriteriaId": "0155FB0B-7FAD-4388-96C8-A8543B4FDFD9"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:5.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "201F059D-33D1-4D9F-9C6F-FC8EB49E4735"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:5.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "B025E795-5713-485E-8A15-EBE4451A1A46"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:5.0.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "B453FA1D-0FE9-4324-9644-E167561926C2"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:5.0.10:*:*:*:*:*:*:*",
+										"matchCriteriaId": "FDEA946E-B6D2-463B-89D0-F2F37278089E"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:6.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "183B5940-2310-4D2E-99F0-9792A801A442"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:6.0.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "4F8BB13E-2732-4F9E-A588-EA1C00893C8B"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:6.0.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "E5FCDCBF-597B-439C-8D8B-2819FC70C567"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:6.0.3:*:*:*:*:*:*:*",
+										"matchCriteriaId": "440B890A-90E9-4456-B92A-856CD17F0C78"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:6.0.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "79BD9D8D-39DA-403E-915D-E1B6A46A6BAB"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:6.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "8976A7DC-1314-4C4A-A7C5-AA789D2DAB9C"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:6.0.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "37854E7C-2166-48D7-AE8C-44C9468C38C7"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "FECFC942-4F04-420C-A9B4-AE0C0590317F"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "F81817F2-1E3A-4A52-88F1-6B614A2A1F0A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "CFFFFF0D-A80F-4B67-BEE2-86868EF7AA37"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.3:*:*:*:*:*:*:*",
+										"matchCriteriaId": "1DC97A87-2652-4AD6-8E10-419A9AC9C245"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "3E1F71AE-3591-499E-B09F-AAC4E38F1CF2"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "2D75174C-EBF9-4117-9E66-80E847012853"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "69B0305A-51D3-4E09-B96C-54B0ED921DA3"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.7:*:*:*:*:*:*:*",
+										"matchCriteriaId": "9762FE57-837B-4FFA-9813-AC038450EB2B"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.8:*:*:*:*:*:*:*",
+										"matchCriteriaId": "0055A38C-E421-40A1-8BC7-11856A20B8F0"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.0.9:*:*:*:*:*:*:*",
+										"matchCriteriaId": "758CC9EE-8929-405B-A845-83BAAECCB2AD"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.1.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "24A7CF98-27EC-406A-98E2-ACC1AAAF5C93"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.1.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "BC1BD70D-7A92-4309-A40C-9BD500997390"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.1.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "F9C17896-8895-4731-B77A-F488A94F0CBD"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.1.3:*:*:*:*:*:*:*",
+										"matchCriteriaId": "21AC1961-12F7-456F-9CE4-9AAF116CF141"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:7.1.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "DF9F1050-B6BE-4B99-882B-36D6E187304D"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:8.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "26AE76F7-D7F6-4AF2-A5C6-708B5642C288"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:8.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "749FFB51-65D4-4A4B-95F3-742440276897"
+									}
+								]
+							}
+						]
+					},
+					{
+						"nodes": [
+							{
+								"operator": "OR",
+								"negate": false,
+								"cpeMatch": [
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:*:*:*:*:*:*:*:*",
+										"versionEndIncluding": "8.1.1",
+										"matchCriteriaId": "82321E60-2553-41E2-A4F4-375CFF011C0A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:3.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "B1C92642-7C8D-411A-8726-06A8A6483D65"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:3.01:*:*:*:*:*:*:*",
+										"matchCriteriaId": "3CBE2E6C-AF0E-4A77-9EB0-3593889BC676"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:3.02:*:*:*:*:*:*:*",
+										"matchCriteriaId": "4B5C5C14-383C-4630-858E-D40D6C32FD4B"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:4.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "F509566A-6D4A-40C0-8A16-F8765C5DCAAF"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:4.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "707D7124-6063-4510-80B4-AD9675996F67"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:4.0.5a:*:*:*:*:*:*:*",
+										"matchCriteriaId": "200FFAE3-CC1C-4A11-99AD-377D54A67195"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:4.0.5c:*:*:*:*:*:*:*",
+										"matchCriteriaId": "8A990E86-07C0-49E2-92D6-55E499F30FAE"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:4.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "6AED985D-60D7-489E-9F1E-CE3C9D985B7A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "5F0FCA2F-FD7F-4CE5-9D45-324A7EC45105"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "EF7EAA22-CED2-4379-9465-9562BACB1C20"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.0.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "35B1CA6B-600C-4E03-B4D5-3D7E1BC4D0F9"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.0.7:*:*:*:*:*:*:*",
+										"matchCriteriaId": "F7AA1BA3-9FFA-46AB-A92A-7247D5F7EA06"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.0.9:*:*:*:*:*:*:*",
+										"matchCriteriaId": "3F5F7424-1E19-4078-8908-CD86A0185042"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.0.10:*:*:*:*:*:*:*",
+										"matchCriteriaId": "F2402B40-6B72-48B5-A376-DA8D16CA43FA"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.0.11:*:*:*:*:*:*:*",
+										"matchCriteriaId": "0D968113-340A-4E5A-B4FD-D9702D49E3DC"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:5.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "ACF742B8-5F7A-487B-835C-756B1BB392F4"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:6.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "C0BB7C0C-B1D6-4733-BA91-022A1A7FB2E2"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:6.0.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "0B131DB8-4B6A-4AF2-8D5E-B5EA1AEBFB3B"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:6.0.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "5B9351C2-16ED-4766-B417-8DB3A8766C2F"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:6.0.3:*:*:*:*:*:*:*",
+										"matchCriteriaId": "74667860-0047-40AD-9468-860591BA9D17"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:6.0.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "5DEA092A-5532-4DCC-B43D-7A8ECF07FA4C"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:6.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "9628AFF9-6EE1-4E85-858F-AE96EE64B7F4"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:6.0.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "B95511FD-C8F1-478F-B6DF-1D0E068845D3"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "6E2D0266-6954-4DBA-9EEE-8BF73B39DD61"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "24262AFA-2EC8-479E-8922-36DB4243E404"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "F1E62096-08B2-4722-A492-11E9A441E85B"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.3:*:*:*:*:*:*:*",
+										"matchCriteriaId": "C5370AC6-90EE-48EA-8DBD-54002B102F7C"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "C36D10A8-D211-437D-98D8-9029D0A9CF8B"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.5:*:*:*:*:*:*:*",
+										"matchCriteriaId": "BA55D00C-3629-48E4-8699-F62B8D703E02"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "0EE5E1B7-7B91-4AE1-92AA-4F1763E1BA1E"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.7:*:*:*:*:*:*:*",
+										"matchCriteriaId": "623324C2-C8B5-4C3C-9C10-9677D5A6740A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.8:*:*:*:*:*:*:*",
+										"matchCriteriaId": "B8EAF5E3-F3B4-4AD3-B5F1-281AB0F9C57F"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.0.9:*:*:*:*:*:*:*",
+										"matchCriteriaId": "634396D6-4ED6-4F4D-9458-396373489589"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.1.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "9A265869-EF58-428E-B8BB-30CABCBE0A83"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.1.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "ADB421CD-85DE-4495-93B7-46708449AE27"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.1.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "32049561-270C-4B18-9E96-EA0F66ACECAA"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.1.3:*:*:*:*:*:*:*",
+										"matchCriteriaId": "5491D310-E1C0-4FCB-9DCA-97CA1F95D4BA"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:7.1.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "1976F77D-D8D2-4107-A1C4-05D776A02FAE"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:8.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "996EB48E-D2A8-49E4-915A-EBDE26A9FB94"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:8.1:*:*:*:*:*:*:*",
+										"matchCriteriaId": "97E20936-EE31-4CEB-A710-3165A28BAD69"
+									}
+								]
+							}
+						]
+					}
+				],
+				"references": [
+					{
+						"url": "http://blogs.adobe.com/acroread/2008/02/adobe_reader_812_for_linux_and.html",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://kb.adobe.com/selfservice/viewContent.do?externalId=kb403079&sliceId=1",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://lists.opensuse.org/opensuse-security-announce/2008-02/msg00007.html",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://secunia.com/advisories/28802",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Patch",
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://secunia.com/advisories/28851",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://secunia.com/advisories/28983",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://secunia.com/advisories/29065",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://secunia.com/advisories/29205",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://secunia.com/advisories/30840",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://security.gentoo.org/glsa/glsa-200803-01.xml",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://securitytracker.com/id?1019346",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://sunsolve.sun.com/search/document.do?assetkey=1-26-239286-1",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.adobe.com/support/security/advisories/apsa08-01.html",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://www.adobe.com/support/security/bulletins/apsb08-13.html",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://www.redhat.com/support/errata/RHSA-2008-0144.html",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.securityfocus.com/bid/27641",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Exploit",
+							"Patch"
+						]
+					},
+					{
+						"url": "http://www.us-cert.gov/cas/techalerts/TA08-043A.html",
+						"source": "cve@mitre.org",
+						"tags": [
+							"US Government Resource"
+						]
+					},
+					{
+						"url": "http://www.vupen.com/english/advisories/2008/0425",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.vupen.com/english/advisories/2008/1966/references",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A10299",
+						"source": "cve@mitre.org"
+					}
+				]
+			}
+		},
+		{
+			"cve": {
+				"id": "CVE-2007-5659",
+				"sourceIdentifier": "cve@mitre.org",
+				"published": "2008-02-12T19:00:00.000",
+				"lastModified": "2017-09-29T01:29:40.190",
+				"vulnStatus": "Modified",
+				"cisaExploitAdd": "2022-06-08",
+				"cisaActionDue": "2022-06-22",
+				"cisaRequiredAction": "Apply updates per vendor instructions.",
+				"cisaVulnerabilityName": "Adobe Acrobat and Reader Buffer Overflow Vulnerability",
+				"descriptions": [
+					{
+						"lang": "en",
+						"value": "Multiple buffer overflows in Adobe Reader and Acrobat 8.1.1 and earlier allow remote attackers to execute arbitrary code via a PDF file with long arguments to unspecified JavaScript methods.  NOTE: this issue might be subsumed by CVE-2008-0655."
+					},
+					{
+						"lang": "es",
+						"value": "Múltiples desbordamientos de búfer en Adobe Reader and Acrobat 8.1.1 y anteriores permiten a atacantes remotos ejecutar código de su elección a través de ficheros PDF con argumentos largos de métodos no especificados de JavaScript.\r\nNOTA: esta cuestión podría ser subsumida por CVE-2008-0655."
+					}
+				],
+				"metrics": {
+					"cvssMetricV2": [
+						{
+							"source": "nvd@nist.gov",
+							"type": "Primary",
+							"cvssData": {
+								"version": "2.0",
+								"vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+								"accessVector": "NETWORK",
+								"accessComplexity": "MEDIUM",
+								"authentication": "NONE",
+								"confidentialityImpact": "COMPLETE",
+								"integrityImpact": "COMPLETE",
+								"availabilityImpact": "COMPLETE",
+								"baseScore": 9.3
+							},
+							"baseSeverity": "HIGH",
+							"exploitabilityScore": 8.6,
+							"impactScore": 10.0,
+							"acInsufInfo": false,
+							"obtainAllPrivilege": true,
+							"obtainUserPrivilege": false,
+							"obtainOtherPrivilege": false,
+							"userInteractionRequired": true
+						}
+					]
+				},
+				"weaknesses": [
+					{
+						"source": "nvd@nist.gov",
+						"type": "Primary",
+						"description": [
+							{
+								"lang": "en",
+								"value": "CWE-119"
+							}
+						]
+					}
+				],
+				"configurations": [
+					{
+						"nodes": [
+							{
+								"operator": "OR",
+								"negate": false,
+								"cpeMatch": [
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat:*:*:*:*:*:*:*:*",
+										"versionEndIncluding": "8.1.1",
+										"matchCriteriaId": "3A068220-ADFE-46F0-AE35-3355BEFEECD9"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:adobe:acrobat_reader:*:*:*:*:*:*:*:*",
+										"versionEndIncluding": "8.1.1",
+										"matchCriteriaId": "82321E60-2553-41E2-A4F4-375CFF011C0A"
+									}
+								]
+							}
+						]
+					}
+				],
+				"references": [
+					{
+						"url": "http://labs.idefense.com/intelligence/vulnerabilities/display.php?id=657",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://secunia.com/advisories/29065",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://secunia.com/advisories/29205",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://secunia.com/advisories/30840",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://security.gentoo.org/glsa/glsa-200803-01.xml",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://sunsolve.sun.com/search/document.do?assetkey=1-26-239286-1",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.adobe.com/support/security/advisories/apsa08-01.html",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Patch"
+						]
+					},
+					{
+						"url": "http://www.adobe.com/support/security/bulletins/apsb08-13.html",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.kb.cert.org/vuls/id/666281",
+						"source": "cve@mitre.org",
+						"tags": [
+							"US Government Resource"
+						]
+					},
+					{
+						"url": "http://www.redhat.com/support/errata/RHSA-2008-0144.html",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.us-cert.gov/cas/techalerts/TA08-043A.html",
+						"source": "cve@mitre.org",
+						"tags": [
+							"US Government Resource"
+						]
+					},
+					{
+						"url": "http://www.vupen.com/english/advisories/2008/1966/references",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A9813",
+						"source": "cve@mitre.org"
+					}
+				]
+			}
+		},
+		{
+			"cve": {
+				"id": "CVE-2008-3431",
+				"sourceIdentifier": "cve@mitre.org",
+				"published": "2008-08-05T19:41:00.000",
+				"lastModified": "2018-10-11T20:48:19.147",
+				"vulnStatus": "Modified",
+				"cisaExploitAdd": "2022-03-03",
+				"cisaActionDue": "2022-03-24",
+				"cisaRequiredAction": "Apply updates per vendor instructions.",
+				"cisaVulnerabilityName": "Oracle VirtualBox Insufficient Input Validation Vulnerability",
+				"descriptions": [
+					{
+						"lang": "en",
+						"value": "The VBoxDrvNtDeviceControl function in VBoxDrv.sys in Sun xVM VirtualBox before 1.6.4 uses the METHOD_NEITHER communication method for IOCTLs and does not properly validate a buffer associated with the Irp object, which allows local users to gain privileges by opening the \\\\.\\VBoxDrv device and calling DeviceIoControl to send a crafted kernel address."
+					},
+					{
+						"lang": "es",
+						"value": "La función VBoxDrvNtDeviceControl del archivo VBoxDrv.sys de Sun xVM VirtualBox en versiones anteriores a la 1.6.4, utiliza el método de comunicación METHOD_NEITHER para IOCTLs, que no validad adecuadamente el búfer asociado con el objeto Irp, el cual permite a los usuario locales ganar privilegios abriendo el dispositivo \\\\.\\VBoxDrv y llamando a DeviceIoControl para enviar una dirección manipulada del kernel"
+					}
+				],
+				"metrics": {
+					"cvssMetricV2": [
+						{
+							"source": "nvd@nist.gov",
+							"type": "Primary",
+							"cvssData": {
+								"version": "2.0",
+								"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+								"accessVector": "LOCAL",
+								"accessComplexity": "LOW",
+								"authentication": "NONE",
+								"confidentialityImpact": "COMPLETE",
+								"integrityImpact": "COMPLETE",
+								"availabilityImpact": "COMPLETE",
+								"baseScore": 7.2
+							},
+							"baseSeverity": "HIGH",
+							"exploitabilityScore": 3.9,
+							"impactScore": 10.0,
+							"acInsufInfo": false,
+							"obtainAllPrivilege": true,
+							"obtainUserPrivilege": false,
+							"obtainOtherPrivilege": false,
+							"userInteractionRequired": false
+						}
+					]
+				},
+				"weaknesses": [
+					{
+						"source": "nvd@nist.gov",
+						"type": "Primary",
+						"description": [
+							{
+								"lang": "en",
+								"value": "CWE-264"
+							}
+						]
+					}
+				],
+				"configurations": [
+					{
+						"nodes": [
+							{
+								"operator": "OR",
+								"negate": false,
+								"cpeMatch": [
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:*:*:*:*:*:*:*:*",
+										"versionEndIncluding": "1.6.2",
+										"matchCriteriaId": "4E6BF0D3-5C75-4EC2-943E-3E3BBC1F9806"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.3.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "B3DA16A6-8C03-485A-B157-E86F270DA187"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.3.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "4B7C0368-A4D1-4F98-9311-3B28B5002FEA"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.3.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "F58DB367-855B-4D4B-A6D0-A8E9E52A7474"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.3.8:*:*:*:*:*:*:*",
+										"matchCriteriaId": "49D1BACC-C58D-480C-915B-1716A0B8D249"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.4.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "75554A1B-9A13-49EC-A101-B03C19702BD5"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.5.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "BA586938-0269-42C9-A974-7FC0CFF721AD"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.5.2:*:*:*:*:*:*:*",
+										"matchCriteriaId": "5A6AD5B8-3739-46EB-86FE-50A5288712DD"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.5.4:*:*:*:*:*:*:*",
+										"matchCriteriaId": "109414D9-5A5D-4B86-8F2B-687381CFEAAC"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.5.6:*:*:*:*:*:*:*",
+										"matchCriteriaId": "B0CDDC5A-FFF6-40CE-A694-803AFAD15589"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:sun:xvm_virtualbox:1.6.0:*:*:*:*:*:*:*",
+										"matchCriteriaId": "1D7A5D6B-F6F7-470F-8356-D2E1674CA46C"
+									}
+								]
+							}
+						]
+					}
+				],
+				"references": [
+					{
+						"url": "http://secunia.com/advisories/31361",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "http://securityreason.com/securityalert/4107",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://securitytracker.com/id?1020625",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://sunsolve.sun.com/search/document.do?assetkey=1-66-240095-1",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://virtualbox.org/wiki/Changelog",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.coresecurity.com/content/virtualbox-privilege-escalation-vulnerability",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.securityfocus.com/archive/1/495095/100/0/threaded",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "http://www.securityfocus.com/bid/30481",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Exploit"
+						]
+					},
+					{
+						"url": "http://www.vupen.com/english/advisories/2008/2293",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/44202",
+						"source": "cve@mitre.org"
+					},
+					{
+						"url": "https://www.exploit-db.com/exploits/6218",
+						"source": "cve@mitre.org"
+					}
+				]
+			}
+		},
+		{
+			"cve": {
+				"id": "CVE-2022-28810",
+				"sourceIdentifier": "cve@mitre.org",
+				"published": "2022-04-18T13:15:08.233",
+				"lastModified": "2023-08-08T14:21:49.707",
+				"vulnStatus": "Analyzed",
+				"cisaExploitAdd": "2023-03-07",
+				"cisaActionDue": "2023-03-28",
+				"cisaRequiredAction": "Apply updates per vendor instructions.",
+				"cisaVulnerabilityName": "Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability",
+				"descriptions": [
+					{
+						"lang": "en",
+						"value": "Zoho ManageEngine ADSelfService Plus before build 6122 allows a remote authenticated administrator to execute arbitrary operating OS commands as SYSTEM via the policy custom script feature. Due to the use of a default administrator password, attackers may be able to abuse this functionality with minimal effort. Additionally, a remote and partially authenticated attacker may be able to inject arbitrary commands into the custom script due to an unsanitized password field."
+					},
+					{
+						"lang": "es",
+						"value": "Zoho ManageEngine ADSelfService Plus antes de la compilación 6122 permite a un administrador remoto autenticado ejecutar comandos arbitrarios del sistema operativo como SYSTEM a través de la función de script personalizado de la política. Debido al uso de una contraseña de administrador por defecto, los atacantes pueden ser capaces de abusar de esta funcionalidad con un esfuerzo mínimo. Además, un atacante remoto y parcialmente autenticado puede ser capaz de inyectar comandos arbitrarios en el script personalizado debido a un campo de contraseña no saneado"
+					}
+				],
+				"metrics": {
+					"cvssMetricV31": [
+						{
+							"source": "nvd@nist.gov",
+							"type": "Primary",
+							"cvssData": {
+								"version": "3.1",
+								"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H",
+								"attackVector": "NETWORK",
+								"attackComplexity": "LOW",
+								"privilegesRequired": "HIGH",
+								"userInteraction": "REQUIRED",
+								"scope": "UNCHANGED",
+								"confidentialityImpact": "HIGH",
+								"integrityImpact": "HIGH",
+								"availabilityImpact": "HIGH",
+								"baseScore": 6.8,
+								"baseSeverity": "MEDIUM"
+							},
+							"exploitabilityScore": 0.9,
+							"impactScore": 5.9
+						}
+					],
+					"cvssMetricV2": [
+						{
+							"source": "nvd@nist.gov",
+							"type": "Primary",
+							"cvssData": {
+								"version": "2.0",
+								"vectorString": "AV:N/AC:H/Au:S/C:C/I:C/A:C",
+								"accessVector": "NETWORK",
+								"accessComplexity": "HIGH",
+								"authentication": "SINGLE",
+								"confidentialityImpact": "COMPLETE",
+								"integrityImpact": "COMPLETE",
+								"availabilityImpact": "COMPLETE",
+								"baseScore": 7.1
+							},
+							"baseSeverity": "HIGH",
+							"exploitabilityScore": 3.9,
+							"impactScore": 10.0,
+							"acInsufInfo": false,
+							"obtainAllPrivilege": false,
+							"obtainUserPrivilege": false,
+							"obtainOtherPrivilege": false,
+							"userInteractionRequired": true
+						}
+					]
+				},
+				"weaknesses": [
+					{
+						"source": "nvd@nist.gov",
+						"type": "Primary",
+						"description": [
+							{
+								"lang": "en",
+								"value": "CWE-78"
+							},
+							{
+								"lang": "en",
+								"value": "CWE-798"
+							}
+						]
+					}
+				],
+				"configurations": [
+					{
+						"nodes": [
+							{
+								"operator": "OR",
+								"negate": false,
+								"cpeMatch": [
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:*:*:*:*:*:*:*:*",
+										"versionEndExcluding": "6.1",
+										"matchCriteriaId": "A79AAA12-67D4-4343-9E0B-249C07144DD8"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:-:*:*:*:*:*:*",
+										"matchCriteriaId": "B2320EEE-367C-4CE1-8AC4-048B97DE71F3"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6100:*:*:*:*:*:*",
+										"matchCriteriaId": "B1E5484A-D834-4C7A-962C-C78CF0CDAA8B"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6101:*:*:*:*:*:*",
+										"matchCriteriaId": "6FA21683-29F7-44EB-84C6-D29C6C64DE97"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6102:*:*:*:*:*:*",
+										"matchCriteriaId": "7BE0B72F-2963-4666-9A82-7812BFB52DB0"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6103:*:*:*:*:*:*",
+										"matchCriteriaId": "85DD7E26-B9C5-4DCC-8F50-F5884AF61105"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6104:*:*:*:*:*:*",
+										"matchCriteriaId": "AC37608E-E61B-4333-8358-50C8377A1ABF"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6105:*:*:*:*:*:*",
+										"matchCriteriaId": "C13EF458-FE95-49E5-9A13-04C96C3F114A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6106:*:*:*:*:*:*",
+										"matchCriteriaId": "12919644-3D85-488C-89A3-58A1FB31279D"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6107:*:*:*:*:*:*",
+										"matchCriteriaId": "75206A94-9155-48D7-A378-5020877B8B97"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6108:*:*:*:*:*:*",
+										"matchCriteriaId": "E50CF265-DE6F-4281-8300-06D54185AA43"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6109:*:*:*:*:*:*",
+										"matchCriteriaId": "EB577C00-1412-4F87-B91A-5E956EB2213F"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6110:*:*:*:*:*:*",
+										"matchCriteriaId": "4C7681FA-FC15-49CE-9288-3C4E361F4D21"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6111:*:*:*:*:*:*",
+										"matchCriteriaId": "80F12A94-93C5-4442-8FB3-4E02E4DECCEB"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6112:*:*:*:*:*:*",
+										"matchCriteriaId": "17270CDC-C800-4B5A-BEAA-83AF455BBBEA"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6113:*:*:*:*:*:*",
+										"matchCriteriaId": "DAFE53B1-7736-4560-8FEF-AA0F56FEACF2"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6114:*:*:*:*:*:*",
+										"matchCriteriaId": "C5491174-9BE3-4FBF-AEF5-6A313E2CEBA0"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6115:*:*:*:*:*:*",
+										"matchCriteriaId": "E407C5F1-43D0-4B5D-A3B8-A48A7024CCB1"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6116:*:*:*:*:*:*",
+										"matchCriteriaId": "2EC89DCA-D24A-46BB-8086-C306BB4CDABD"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6117:*:*:*:*:*:*",
+										"matchCriteriaId": "45BEF834-4A4B-4CB0-BEBF-73A03FDAC773"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6118:*:*:*:*:*:*",
+										"matchCriteriaId": "E319DA11-0C76-4F52-A197-FFBF4F30BB55"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6119:*:*:*:*:*:*",
+										"matchCriteriaId": "B928577F-3183-4305-9009-A8C6970477D6"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6120:*:*:*:*:*:*",
+										"matchCriteriaId": "CE6F33B5-418E-4B38-81EB-090E4F3AF89A"
+									},
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:zohocorp:manageengine_adselfservice_plus:6.1:6121:*:*:*:*:*:*",
+										"matchCriteriaId": "1DD9B2CF-8EBE-454D-8A81-873C0A8ACAA9"
+									}
+								]
+							}
+						]
+					}
+				],
+				"references": [
+					{
+						"url": "http://packetstormsecurity.com/files/166816/ManageEngine-ADSelfService-Plus-Custom-Script-Execution.html",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Exploit",
+							"Third Party Advisory",
+							"VDB Entry"
+						]
+					},
+					{
+						"url": "https://github.com/rapid7/metasploit-framework/pull/16475",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Exploit",
+							"Patch",
+							"Third Party Advisory"
+						]
+					},
+					{
+						"url": "https://www.manageengine.com/products/self-service-password/kb/cve-2022-28810.html",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Patch",
+							"Vendor Advisory"
+						]
+					},
+					{
+						"url": "https://www.rapid7.com/blog/post/2022/04/14/cve-2022-28810-manageengine-adselfservice-plus-authenticated-command-execution-fixed/",
+						"source": "cve@mitre.org",
+						"tags": [
+							"Exploit",
+							"Patch",
+							"Technical Description",
+							"Third Party Advisory"
+						]
+					}
+				]
+			}
+		},
+		{
+			"cve": {
+				"id": "CVE-2023-27524",
+				"sourceIdentifier": "security@apache.org",
+				"published": "2023-04-24T16:15:07.843",
+				"lastModified": "2024-01-09T02:00:01.953",
+				"vulnStatus": "Undergoing Analysis",
+				"cisaExploitAdd": "2024-01-08",
+				"cisaActionDue": "2024-01-29",
+				"cisaRequiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+				"cisaVulnerabilityName": "Apache Superset Insecure Default Initialization of Resource Vulnerability",
+				"descriptions": [
+					{
+						"lang": "en",
+						"value": "Session Validation attacks in Apache Superset versions up to and including 2.0.1. Installations that have not altered the default configured SECRET_KEY according to installation instructions allow for an attacker to authenticate and access unauthorized resources. This does not affect Superset administrators who have changed the default value for SECRET_KEY config."
+					}
+				],
+				"metrics": {
+					"cvssMetricV31": [
+						{
+							"source": "nvd@nist.gov",
+							"type": "Primary",
+							"cvssData": {
+								"version": "3.1",
+								"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+								"attackVector": "NETWORK",
+								"attackComplexity": "LOW",
+								"privilegesRequired": "NONE",
+								"userInteraction": "NONE",
+								"scope": "UNCHANGED",
+								"confidentialityImpact": "HIGH",
+								"integrityImpact": "HIGH",
+								"availabilityImpact": "HIGH",
+								"baseScore": 9.8,
+								"baseSeverity": "CRITICAL"
+							},
+							"exploitabilityScore": 3.9,
+							"impactScore": 5.9
+						},
+						{
+							"source": "security@apache.org",
+							"type": "Secondary",
+							"cvssData": {
+								"version": "3.1",
+								"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:L",
+								"attackVector": "NETWORK",
+								"attackComplexity": "HIGH",
+								"privilegesRequired": "NONE",
+								"userInteraction": "NONE",
+								"scope": "CHANGED",
+								"confidentialityImpact": "HIGH",
+								"integrityImpact": "HIGH",
+								"availabilityImpact": "LOW",
+								"baseScore": 8.9,
+								"baseSeverity": "HIGH"
+							},
+							"exploitabilityScore": 2.2,
+							"impactScore": 6.0
+						}
+					]
+				},
+				"weaknesses": [
+					{
+						"source": "security@apache.org",
+						"type": "Primary",
+						"description": [
+							{
+								"lang": "en",
+								"value": "CWE-1188"
+							}
+						]
+					}
+				],
+				"configurations": [
+					{
+						"nodes": [
+							{
+								"operator": "OR",
+								"negate": false,
+								"cpeMatch": [
+									{
+										"vulnerable": true,
+										"criteria": "cpe:2.3:a:apache:superset:*:*:*:*:*:*:*:*",
+										"versionEndIncluding": "2.0.1",
+										"matchCriteriaId": "20E98F0D-B484-4FA4-8273-074A75ED3227"
+									}
+								]
+							}
+						]
+					}
+				],
+				"references": [
+					{
+						"url": "http://packetstormsecurity.com/files/172522/Apache-Superset-2.0.0-Authentication-Bypass.html",
+						"source": "security@apache.org"
+					},
+					{
+						"url": "http://packetstormsecurity.com/files/175094/Apache-Superset-2.0.0-Remote-Code-Execution.html",
+						"source": "security@apache.org"
+					},
+					{
+						"url": "http://www.openwall.com/lists/oss-security/2023/04/24/2",
+						"source": "security@apache.org",
+						"tags": [
+							"Mailing List",
+							"Third Party Advisory"
+						]
+					},
+					{
+						"url": "https://lists.apache.org/thread/n0ftx60sllf527j7g11kmt24wvof8xyk",
+						"source": "security@apache.org",
+						"tags": [
+							"Mailing List",
+							"Vendor Advisory"
+						]
+					}
+				]
+			}
+		},
+		{
+			"cve": {
+			  "id": "CVE-2023-29298",
+			  "sourceIdentifier": "psirt@adobe.com",
+			  "published": "2023-07-12T16:15:11.623",
+			  "lastModified": "2023-07-19T17:55:22.400",
+			  "vulnStatus": "Analyzed",
+			  "cisaExploitAdd": "2023-07-20",
+			  "cisaActionDue": "2023-08-10",
+			  "cisaRequiredAction": "Apply mitigations per vendor instructions or discontinue use of the product if mitigations are unavailable.",
+			  "cisaVulnerabilityName": "Adobe ColdFusion Improper Access Control Vulnerability",
+			  "descriptions": [
+				{
+				  "lang": "en",
+				  "value": "Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by an Improper Access Control vulnerability that could result in a Security feature bypass. An attacker could leverage this vulnerability to access the administration CFM and CFC endpoints. Exploitation of this issue does not require user interaction."
+				}
+			  ],
+			  "metrics": {
+				"cvssMetricV31": [
+				  {
+					"source": "nvd@nist.gov",
+					"type": "Primary",
+					"cvssData": {
+					  "version": "3.1",
+					  "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					  "attackVector": "NETWORK",
+					  "attackComplexity": "LOW",
+					  "privilegesRequired": "NONE",
+					  "userInteraction": "NONE",
+					  "scope": "UNCHANGED",
+					  "confidentialityImpact": "HIGH",
+					  "integrityImpact": "NONE",
+					  "availabilityImpact": "NONE",
+					  "baseScore": 7.5,
+					  "baseSeverity": "HIGH"
+					},
+					"exploitabilityScore": 3.9,
+					"impactScore": 3.6
+				  },
+				  {
+					"source": "psirt@adobe.com",
+					"type": "Secondary",
+					"cvssData": {
+					  "version": "3.1",
+					  "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+					  "attackVector": "NETWORK",
+					  "attackComplexity": "LOW",
+					  "privilegesRequired": "NONE",
+					  "userInteraction": "NONE",
+					  "scope": "UNCHANGED",
+					  "confidentialityImpact": "HIGH",
+					  "integrityImpact": "NONE",
+					  "availabilityImpact": "NONE",
+					  "baseScore": 7.5,
+					  "baseSeverity": "HIGH"
+					},
+					"exploitabilityScore": 3.9,
+					"impactScore": 3.6
+				  }
+				]
+			  },
+			  "weaknesses": [
+				{
+				  "source": "nvd@nist.gov",
+				  "type": "Primary",
+				  "description": [
+					{
+					  "lang": "en",
+					  "value": "NVD-CWE-Other"
+					}
+				  ]
+				},
+				{
+				  "source": "psirt@adobe.com",
+				  "type": "Secondary",
+				  "description": [
+					{
+					  "lang": "en",
+					  "value": "CWE-284"
+					}
+				  ]
+				}
+			  ],
+			  "configurations": [
+				{
+				  "nodes": [
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "2023",
+						  "versionEndIncluding": "2023.0.0.330468",
+						  "matchCriteriaId": "A548657E-F819-4B23-A1DB-AC3F089F3A44"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:-:*:*:*:*:*:*",
+						  "matchCriteriaId": "3B54B2B0-B1E1-4B4E-A529-D0BD3B5DEEF3"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update1:*:*:*:*:*:*",
+						  "matchCriteriaId": "EDB126BF-E09D-4E58-A39F-1190407D1CAB"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update10:*:*:*:*:*:*",
+						  "matchCriteriaId": "8DDD85DF-69A0-476F-8365-CD67C75CF0CE"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update11:*:*:*:*:*:*",
+						  "matchCriteriaId": "23F63675-7817-4AF0-A7DB-5E35EDABF04E"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update12:*:*:*:*:*:*",
+						  "matchCriteriaId": "3E3BF53E-2C0D-4F79-8B62-4C2A50CB5F52"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update13:*:*:*:*:*:*",
+						  "matchCriteriaId": "C26BF72C-E991-4170-B68B-09B20B6C0679"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update14:*:*:*:*:*:*",
+						  "matchCriteriaId": "25B4B4F2-318F-4046-ADE5-E9DD64F83FD9"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update15:*:*:*:*:*:*",
+						  "matchCriteriaId": "831E8D69-62E9-4778-8CC5-D6D45CF5AB6F"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update16:*:*:*:*:*:*",
+						  "matchCriteriaId": "2F549BB3-25AB-4C83-B608-3717EADAAB35"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update2:*:*:*:*:*:*",
+						  "matchCriteriaId": "59649177-81EE-43C3-BFA5-E56E65B486DF"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update3:*:*:*:*:*:*",
+						  "matchCriteriaId": "453B96ED-738A-4642-B461-C5216CF45CA3"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update4:*:*:*:*:*:*",
+						  "matchCriteriaId": "58D32489-627B-4E49-9329-8A3B8F8E4903"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update5:*:*:*:*:*:*",
+						  "matchCriteriaId": "6D5860E1-D293-48FE-9796-058B78B2D571"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update6:*:*:*:*:*:*",
+						  "matchCriteriaId": "9F9336CC-E38F-4BCB-83CD-805EC7FEF806"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update7:*:*:*:*:*:*",
+						  "matchCriteriaId": "97964507-047A-4CC8-8D2B-0EA0C7F9BD50"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update8:*:*:*:*:*:*",
+						  "matchCriteriaId": "82208628-F32A-4380-9B0F-DC8507E7701D"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2018:update9:*:*:*:*:*:*",
+						  "matchCriteriaId": "1563CE5E-A4F7-40A4-A050-BB96E332D8DD"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2021:-:*:*:*:*:*:*",
+						  "matchCriteriaId": "7A94B406-C011-4673-8C2B-0DD94D46CC4C"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2021:update1:*:*:*:*:*:*",
+						  "matchCriteriaId": "AFD05E3A-10F9-4C75-9710-BA46B66FF6E6"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2021:update2:*:*:*:*:*:*",
+						  "matchCriteriaId": "D57C8681-AC68-47DF-A61E-B5C4B4A47663"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2021:update3:*:*:*:*:*:*",
+						  "matchCriteriaId": "75608383-B727-48D6-8FFA-D552A338A562"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2021:update4:*:*:*:*:*:*",
+						  "matchCriteriaId": "7773DB68-414A-4BA9-960F-52471A784379"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2021:update5:*:*:*:*:*:*",
+						  "matchCriteriaId": "B38B9E86-BCD5-4BCA-8FB7-EC55905184E6"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:adobe:coldfusion:2021:update6:*:*:*:*:*:*",
+						  "matchCriteriaId": "5E7BAB80-8455-4570-A2A2-8F40469EE9CC"
+						}
+					  ]
+					}
+				  ]
+				}
+			  ],
+			  "references": [
+				{
+				  "url": "https://helpx.adobe.com/security/products/coldfusion/apsb23-40.html",
+				  "source": "psirt@adobe.com",
+				  "tags": [
+					"Vendor Advisory"
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"cve": {
+			  "id": "CVE-2023-27992",
+			  "sourceIdentifier": "security@zyxel.com.tw",
+			  "published": "2023-06-19T12:15:09.433",
+			  "lastModified": "2023-06-27T12:49:34.573",
+			  "vulnStatus": "Analyzed",
+			  "cisaExploitAdd": "2023-06-23",
+			  "cisaActionDue": "2023-07-14",
+			  "cisaRequiredAction": "Apply updates per vendor instructions.",
+			  "cisaVulnerabilityName": "Zyxel Multiple NAS Devices Command Injection Vulnerability",
+			  "descriptions": [
+				{
+				  "lang": "en",
+				  "value": "The pre-authentication command injection vulnerability in the Zyxel NAS326 firmware versions prior to V5.21(AAZF.14)C0, NAS540 firmware versions prior to V5.21(AATB.11)C0, and NAS542 firmware versions prior to V5.21(ABAG.11)C0 could allow an unauthenticated attacker to execute some operating system (OS) commands remotely by sending a crafted HTTP request."
+				}
+			  ],
+			  "metrics": {
+				"cvssMetricV31": [
+				  {
+					"source": "security@zyxel.com.tw",
+					"type": "Primary",
+					"cvssData": {
+					  "version": "3.1",
+					  "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					  "attackVector": "NETWORK",
+					  "attackComplexity": "LOW",
+					  "privilegesRequired": "NONE",
+					  "userInteraction": "NONE",
+					  "scope": "UNCHANGED",
+					  "confidentialityImpact": "HIGH",
+					  "integrityImpact": "HIGH",
+					  "availabilityImpact": "HIGH",
+					  "baseScore": 9.8,
+					  "baseSeverity": "CRITICAL"
+					},
+					"exploitabilityScore": 3.9,
+					"impactScore": 5.9
+				  }
+				]
+			  },
+			  "weaknesses": [
+				{
+				  "source": "nvd@nist.gov",
+				  "type": "Primary",
+				  "description": [
+					{
+					  "lang": "en",
+					  "value": "CWE-78"
+					}
+				  ]
+				},
+				{
+				  "source": "security@zyxel.com.tw",
+				  "type": "Secondary",
+				  "description": [
+					{
+					  "lang": "en",
+					  "value": "CWE-78"
+					}
+				  ]
+				}
+			  ],
+			  "configurations": [
+				{
+				  "operator": "AND",
+				  "nodes": [
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:zyxel:nas326_firmware:*:*:*:*:*:*:*:*",
+						  "versionEndIncluding": "5.21\\(aazf.13\\)c0",
+						  "matchCriteriaId": "E1C7EF7A-7A3B-4DAB-B42A-2C84F861A5D2"
+						}
+					  ]
+					},
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": false,
+						  "criteria": "cpe:2.3:h:zyxel:nas326:-:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "E0A01B19-4A91-4FBC-8447-2E854346DAC5"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "operator": "AND",
+				  "nodes": [
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:zyxel:nas540_firmware:*:*:*:*:*:*:*:*",
+						  "versionEndIncluding": "5.21\\(aatb.10\\)c0",
+						  "matchCriteriaId": "0E8018F0-97F9-46E1-954B-08BA1BCE33AB"
+						}
+					  ]
+					},
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": false,
+						  "criteria": "cpe:2.3:h:zyxel:nas540:-:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "B2F7264C-D32A-4EE9-BADC-78518D762BCA"
+						}
+					  ]
+					}
+				  ]
+				},
+				{
+				  "operator": "AND",
+				  "nodes": [
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:zyxel:nas542_firmware:*:*:*:*:*:*:*:*",
+						  "versionEndIncluding": "5.21\\(abag.10\\)c0",
+						  "matchCriteriaId": "1F106841-EEF2-4EFA-BD32-514AF9C74F22"
+						}
+					  ]
+					},
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": false,
+						  "criteria": "cpe:2.3:h:zyxel:nas542:-:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "31C4DD0F-28D0-4BF7-897B-5EEC32AA7277"
+						}
+					  ]
+					}
+				  ]
+				}
+			  ],
+			  "references": [
+				{
+				  "url": "https://www.zyxel.com/global/en/support/security-advisories/zyxel-security-advisory-for-pre-authentication-command-injection-vulnerability-in-nas-products",
+				  "source": "security@zyxel.com.tw",
+				  "tags": [
+					"Patch",
+					"Vendor Advisory"
+				  ]
+				}
+			  ]
+			}
+		  },
+		  {
+			"cve": {
+			  "id": "CVE-2023-27997",
+			  "sourceIdentifier": "psirt@fortinet.com",
+			  "published": "2023-06-13T09:15:16.613",
+			  "lastModified": "2023-11-07T04:10:22.127",
+			  "vulnStatus": "Modified",
+			  "cisaExploitAdd": "2023-06-13",
+			  "cisaActionDue": "2023-07-04",
+			  "cisaRequiredAction": "Apply updates per vendor instructions.",
+			  "cisaVulnerabilityName": "Fortinet FortiOS and FortiProxy SSL-VPN Heap-Based Buffer Overflow Vulnerability",
+			  "descriptions": [
+				{
+				  "lang": "en",
+				  "value": "A heap-based buffer overflow vulnerability [CWE-122] in FortiOS version 7.2.4 and below, version 7.0.11 and below, version 6.4.12 and below, version 6.0.16 and below and FortiProxy version 7.2.3 and below, version 7.0.9 and below, version 2.0.12 and below, version 1.2 all versions, version 1.1 all versions SSL-VPN may allow a remote attacker to execute arbitrary code or commands via specifically crafted requests."
+				}
+			  ],
+			  "metrics": {
+				"cvssMetricV31": [
+				  {
+					"source": "nvd@nist.gov",
+					"type": "Primary",
+					"cvssData": {
+					  "version": "3.1",
+					  "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					  "attackVector": "NETWORK",
+					  "attackComplexity": "LOW",
+					  "privilegesRequired": "NONE",
+					  "userInteraction": "NONE",
+					  "scope": "UNCHANGED",
+					  "confidentialityImpact": "HIGH",
+					  "integrityImpact": "HIGH",
+					  "availabilityImpact": "HIGH",
+					  "baseScore": 9.8,
+					  "baseSeverity": "CRITICAL"
+					},
+					"exploitabilityScore": 3.9,
+					"impactScore": 5.9
+				  },
+				  {
+					"source": "psirt@fortinet.com",
+					"type": "Secondary",
+					"cvssData": {
+					  "version": "3.1",
+					  "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+					  "attackVector": "NETWORK",
+					  "attackComplexity": "LOW",
+					  "privilegesRequired": "NONE",
+					  "userInteraction": "NONE",
+					  "scope": "UNCHANGED",
+					  "confidentialityImpact": "HIGH",
+					  "integrityImpact": "HIGH",
+					  "availabilityImpact": "HIGH",
+					  "baseScore": 9.8,
+					  "baseSeverity": "CRITICAL"
+					},
+					"exploitabilityScore": 3.9,
+					"impactScore": 5.9
+				  }
+				]
+			  },
+			  "weaknesses": [
+				{
+				  "source": "nvd@nist.gov",
+				  "type": "Primary",
+				  "description": [
+					{
+					  "lang": "en",
+					  "value": "CWE-787"
+					}
+				  ]
+				},
+				{
+				  "source": "psirt@fortinet.com",
+				  "type": "Secondary",
+				  "description": [
+					{
+					  "lang": "en",
+					  "value": "CWE-122"
+					}
+				  ]
+				}
+			  ],
+			  "configurations": [
+				{
+				  "nodes": [
+					{
+					  "operator": "OR",
+					  "negate": false,
+					  "cpeMatch": [
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "6.2.10",
+						  "versionEndIncluding": "6.2.13",
+						  "matchCriteriaId": "ED3A999C-9184-4D27-A62E-3D8A3F0D4F27"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.0.10:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "5B5BEBC4-DA5B-47AA-98AA-2D0874BB1CDD"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.0.12:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "FE267DF4-A924-485D-B583-15F45AB2A4AE"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.0.13:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "22F19B6C-4239-4E52-A155-D7A5C62038FF"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.0.14:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "0A89B468-03F2-4EE4-A529-62BDD90DA443"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.0.15:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "3D628C32-BB83-4B02-9B95-52F09F35142C"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.0.16:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "5AD4A64B-5F13-4DE6-99B4-87F3D91523C9"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.2.4:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "C2EC1BE7-3651-4262-A66C-2F92F2F1F5F2"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.2.6:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "DAA4E74C-A426-41D2-BDD3-37C1AA726FBB"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.2.7:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "C4AE7D64-14C0-4DC8-B1AC-EA55EADFBB92"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.2.9:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "285C4AD0-4BAC-418C-A631-0DDAF72D0349"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.4.2:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "59BD8EE9-6F94-4EA5-B22B-1B446A15F2A1"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.4.6:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "50BDB150-8E02-427D-A9FC-C7C3C90F0584"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.4.8:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "C8D27E55-D099-4A62-9683-AFD4B8B9A739"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.4.10:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "12CB6078-7BA2-4841-9BB8-A7214154C031"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:6.4.12:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "991F4477-FCB1-4203-A5C5-67C2741F026E"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:7.0.5:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "66265BCF-0AA4-4CE2-A096-6F3432EB834E"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortios-6k7k:7.0.10:*:*:*:*:*:*:*",
+						  "matchCriteriaId": "534B291D-12F9-4DC0-979B-4A536A0485D1"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "1.1.0",
+						  "versionEndIncluding": "1.1.6",
+						  "matchCriteriaId": "E6BBF05F-4967-4A2E-A8F8-C2086097148B"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "1.2.0",
+						  "versionEndIncluding": "1.2.13",
+						  "matchCriteriaId": "33B84D9A-55E3-4146-A55A-ACB507E61B05"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "2.0.0",
+						  "versionEndIncluding": "2.0.12",
+						  "matchCriteriaId": "7C1D5E6B-A23E-4A92-B53C-720AFEB1B951"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "7.0.0",
+						  "versionEndIncluding": "7.0.9",
+						  "matchCriteriaId": "DAC18F7E-5242-4F36-BB42-FEC33B3AC075"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:a:fortinet:fortiproxy:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "7.2.0",
+						  "versionEndIncluding": "7.2.3",
+						  "matchCriteriaId": "3A99FF48-370E-4D2A-B5CC-889EA21AB213"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "6.0.0",
+						  "versionEndIncluding": "6.0.16",
+						  "matchCriteriaId": "8EA5512D-6EE5-4DF3-A960-C02394F25225"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "6.2.0",
+						  "versionEndIncluding": "6.2.13",
+						  "matchCriteriaId": "3CD57A5A-2B13-495A-8530-8F97E1720602"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "6.4.0",
+						  "versionEndIncluding": "6.4.12",
+						  "matchCriteriaId": "5E99B6E5-7EC3-406C-AFAC-A5E32DE266DF"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "7.0.0",
+						  "versionEndIncluding": "7.0.11",
+						  "matchCriteriaId": "C2573C90-BE6A-4D5D-A223-F09213318909"
+						},
+						{
+						  "vulnerable": true,
+						  "criteria": "cpe:2.3:o:fortinet:fortios:*:*:*:*:*:*:*:*",
+						  "versionStartIncluding": "7.2.0",
+						  "versionEndIncluding": "7.2.4",
+						  "matchCriteriaId": "4AB643A8-B52F-4D54-B816-28A6401BAA25"
+						}
+					  ]
+					}
+				  ]
+				}
+			  ],
+			  "references": [
+				{
+				  "url": "https://fortiguard.com/psirt/FG-IR-23-097",
+				  "source": "psirt@fortinet.com",
+				  "tags": [
+					"Vendor Advisory"
+				  ]
+				}
+			  ]
+			}
+		  }
+	]
+}
