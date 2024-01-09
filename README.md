@@ -49,6 +49,8 @@ Because it's JSON, the ordering of elements shouldn't matter. Don't rely on a hu
 
 # Pipeline
 
+Here's the basic pipeline, all using jq. Convert this to a real script someday.
+
 ## Collect Data
 
 First off, let's just collect the raw data from NVD:
@@ -81,6 +83,6 @@ We'll want to prefer the issuing CNA in case of conflicts. Gotta choose one!
 
 ## Copy the final
 
-`mv renamed-fields.json && rm deconflicted-cwes.json normalized-cwes.json kev-cwes-nvd.json`
+`mv renamed-fields.json kev-cwe-map.json && rm deconflicted-cwes.json normalized-cwes.json just-cwes.json kev-cwes-nvd.json`
 
 
