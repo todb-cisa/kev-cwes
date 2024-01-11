@@ -6873,6 +6873,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2023-29357",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-27992",
     "cwe_source": "security@zyxel.com.tw",
     "cwe_array": [
