@@ -2430,6 +2430,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2018-15133",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-502"
+    ]
+  },
+  {
     "cve_id": "CVE-2018-8373",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -7041,6 +7048,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2023-35082",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-287"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-36844",
     "cwe_source": "sirt@juniper.net",
     "cwe_array": [
@@ -7451,6 +7465,34 @@
     "cwe_source": "mandiant-cve@google.com",
     "cwe_array": [
       "CWE-95"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-46805",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-287"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21887",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-77"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6548",
+    "cwe_source": "secure@citrix.com",
+    "cwe_array": [
+      "CWE-94"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-6549",
+    "cwe_source": "secure@citrix.com",
+    "cwe_array": [
+      "CWE-119"
     ]
   }
 ]
