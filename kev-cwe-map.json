@@ -7482,6 +7482,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2024-0519",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-787"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-6548",
     "cwe_source": "secure@citrix.com",
     "cwe_array": [
