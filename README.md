@@ -28,7 +28,7 @@ CWE annoations must always be treated as arrays from a single source.
 
 * `kev-cves.json` : The entire NVD list of KEV CVEs, according to NIST.
 * `samples-kev-cves.json` : A small set that represents all observed value types for weaknesses.
-* `samples-final.json` : The desired output when applied to `samples-final.json`
+* `samples-final.json` : The desired output when applied to `samples-kevs-cves.json`
 
 # Test data
 
