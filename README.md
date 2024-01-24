@@ -74,13 +74,19 @@ We'll want to prefer the issuing CNA in case of conflicts. Gotta choose one!
 
 ## Pare down the data
 
+All we really care about are the CVE IDs, and the `weaknesses` array.
+
 `jq 'map({id, CWESource: .weaknesses[0].source, CWEs: [.weaknesses[].description[].value]})' deconflicted-cwes.json > just-cwes.json`
 
 ## Rename the fields
 
+We don't need to use NVD's element names; rename them to something more obvious.
+
 `jq 'map({cve_id: .id, cwe_source: .CWESource, cwe_array: .CWEs})' just-cwes.json > renamed-fields.json`
 
 ## Copy the final
+
+Save off the final list to something publishable, and delete the intermediate steps.
 
 `mv renamed-fields.json kev-cwe-map.json && rm deconflicted-cwes.json normalized-cwes.json just-cwes.json kev-cwes-nvd.json`
 
