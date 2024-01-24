@@ -21,7 +21,8 @@ CWE annoations must always be treated as arrays from a single source.
 * Handle the case when there are three sources. Currently, the only sources observed are NVD and the issuing CNA, but that might change.
   - This will probably only change when NVD becomes a proper ADP, and then other ADPs show up to provide their own CWEs.
   - When that happens, I suspect the JSON format will change anyway, so this will need to be updated for the new version.
-* Handle the case where there are no weaknesses. I don't think this is possible normally, but it might pop up for very fresh CVEs.
+* Handle the case where there are no weaknesses. This does happen with very fresh CVEs that haven't been scored yet by NVD.
+  - Currently, a null value for weaknesses totally breaks the scripting. Work around that and other null cases.
 
 # Files
 
