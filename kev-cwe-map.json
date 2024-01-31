@@ -1892,7 +1892,7 @@
   },
   {
     "cve_id": "CVE-2017-6744",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "ykramarz@cisco.com",
     "cwe_array": [
       "CWE-119"
     ]
@@ -7112,9 +7112,9 @@
   },
   {
     "cve_id": "CVE-2023-20269",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "ykramarz@cisco.com",
     "cwe_array": [
-      "CWE-863"
+      "CWE-288"
     ]
   },
   {
@@ -7231,7 +7231,7 @@
   },
   {
     "cve_id": "CVE-2023-20109",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "ykramarz@cisco.com",
     "cwe_array": [
       "CWE-787"
     ]
@@ -7308,9 +7308,9 @@
   },
   {
     "cve_id": "CVE-2023-20198",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "ykramarz@cisco.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-420"
     ]
   },
   {
@@ -7322,9 +7322,16 @@
   },
   {
     "cve_id": "CVE-2023-20273",
+    "cwe_source": "ykramarz@cisco.com",
+    "cwe_array": [
+      "CWE-78"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-34048",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
-      "CWE-none"
+      "CWE-787"
     ]
   },
   {
@@ -7482,6 +7489,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2023-22527",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-74"
+    ]
+  },
+  {
     "cve_id": "CVE-2024-0519",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -7500,6 +7514,13 @@
     "cwe_source": "secure@citrix.com",
     "cwe_array": [
       "CWE-119"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-23222",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-843"
     ]
   }
 ]
