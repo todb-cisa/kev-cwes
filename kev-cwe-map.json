@@ -283,7 +283,7 @@
     "cve_id": "CVE-2011-0611",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
-      "CWE-119"
+      "CWE-843"
     ]
   },
   {
@@ -2992,6 +2992,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2019-7256",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-78"
+    ]
+  },
+  {
     "cve_id": "CVE-2018-15811",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -3776,7 +3783,8 @@
     "cve_id": "CVE-2020-6819",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
-      "CWE-362"
+      "CWE-362",
+      "CWE-416"
     ]
   },
   {
@@ -3820,6 +3828,13 @@
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
       "CWE-78"
+    ]
+  },
+  {
+    "cve_id": "CVE-2020-3259",
+    "cwe_source": "ykramarz@cisco.com",
+    "cwe_array": [
+      "CWE-200"
     ]
   },
   {
@@ -4015,7 +4030,8 @@
     "cve_id": "CVE-2020-12812",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
-      "CWE-178"
+      "CWE-178",
+      "CWE-287"
     ]
   },
   {
@@ -4265,14 +4281,15 @@
     "cve_id": "CVE-2020-13927",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
-      "CWE-1188"
+      "CWE-1188",
+      "CWE-306"
     ]
   },
   {
     "cve_id": "CVE-2020-17087",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
-      "CWE-681"
+      "CWE-131"
     ]
   },
   {
@@ -5167,6 +5184,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2021-36380",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-78"
+    ]
+  },
+  {
     "cve_id": "CVE-2021-35394",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -5630,6 +5654,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2021-44529",
+    "cwe_source": "support@hackerone.com",
+    "cwe_array": [
+      "CWE-94"
+    ]
+  },
+  {
     "cve_id": "CVE-2021-44228",
     "cwe_source": "security@apache.org",
     "cwe_array": [
@@ -5663,7 +5694,8 @@
     "cve_id": "CVE-2021-0920",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
-      "CWE-362"
+      "CWE-362",
+      "CWE-416"
     ]
   },
   {
@@ -6559,7 +6591,7 @@
   },
   {
     "cve_id": "CVE-2023-0669",
-    "cwe_source": "cve@rapid7.con",
+    "cwe_source": "cve@rapid7.com",
     "cwe_array": [
       "CWE-502"
     ]
@@ -6803,6 +6835,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2023-24955",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-29336",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -6887,6 +6926,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2023-29360",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-27992",
     "cwe_source": "security@zyxel.com.tw",
     "cwe_array": [
@@ -6933,6 +6979,13 @@
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
       "CWE-843"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-21237",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
     ]
   },
   {
@@ -7111,6 +7164,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2023-4762",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-843"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-20269",
     "cwe_source": "ykramarz@cisco.com",
     "cwe_array": [
@@ -7213,6 +7273,13 @@
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
       "CWE-754"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-43770",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-79"
     ]
   },
   {
@@ -7475,6 +7542,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2022-48618",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-367"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-46805",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -7521,6 +7595,83 @@
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
       "CWE-843"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21893",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-918"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21762",
+    "cwe_source": "psirt@fortinet.com",
+    "cwe_array": [
+      "CWE-787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21338",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21351",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21410",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-21412",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-1709",
+    "cwe_source": "9119a7d8-5eab-497f-8521-727c672e3725",
+    "cwe_array": [
+      "CWE-288"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-27198",
+    "cwe_source": "cve@jetbrains.com",
+    "cwe_array": [
+      "CWE-288"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-23225",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-23296",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-48788",
+    "cwe_source": "psirt@fortinet.com",
+    "cwe_array": [
+      "CWE-89"
     ]
   }
 ]
