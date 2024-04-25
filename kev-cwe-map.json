@@ -6366,6 +6366,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2022-38028",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
     "cve_id": "CVE-2022-41033",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -7487,21 +7494,21 @@
   },
   {
     "cve_id": "CVE-2023-33063",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "product-security@qualcomm.com",
     "cwe_array": [
       "CWE-416"
     ]
   },
   {
     "cve_id": "CVE-2023-33106",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "product-security@qualcomm.com",
     "cwe_array": [
-      "CWE-416"
+      "CWE-823"
     ]
   },
   {
     "cve_id": "CVE-2023-33107",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "product-security@qualcomm.com",
     "cwe_array": [
       "CWE-190"
     ]
@@ -7613,9 +7620,9 @@
   },
   {
     "cve_id": "CVE-2024-21338",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-822"
     ]
   },
   {
@@ -7627,9 +7634,9 @@
   },
   {
     "cve_id": "CVE-2024-21410",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-287"
     ]
   },
   {
@@ -7672,6 +7679,42 @@
     "cwe_source": "psirt@fortinet.com",
     "cwe_array": [
       "CWE-89"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3272",
+    "cwe_source": "cna@vuldb.com",
+    "cwe_array": [
+      "CWE-798"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3273",
+    "cwe_source": "cna@vuldb.com",
+    "cwe_array": [
+      "CWE-77"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-29745",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-908"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-29748",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-3400",
+    "cwe_source": "psirt@paloaltonetworks.com",
+    "cwe_array": [
+      "CWE-20",
+      "CWE-77"
     ]
   }
 ]
