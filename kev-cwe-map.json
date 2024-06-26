@@ -896,6 +896,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2014-100005",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-352"
+    ]
+  },
+  {
     "cve_id": "CVE-2015-0016",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -1720,6 +1727,13 @@
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
       "CWE-77"
+    ]
+  },
+  {
+    "cve_id": "CVE-2017-3506",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
     ]
   },
   {
@@ -4370,6 +4384,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2020-17519",
+    "cwe_source": "security@apache.org",
+    "cwe_array": [
+      "CWE-552"
+    ]
+  },
+  {
     "cve_id": "CVE-2020-16013",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -5455,6 +5476,13 @@
     "cwe_source": "support@hackerone.com",
     "cwe_array": [
       "CWE-284"
+    ]
+  },
+  {
+    "cve_id": "CVE-2021-40655",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-863"
     ]
   },
   {
@@ -6556,9 +6584,9 @@
   },
   {
     "cve_id": "CVE-2023-21674",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-416"
     ]
   },
   {
@@ -6626,16 +6654,16 @@
   },
   {
     "cve_id": "CVE-2023-23376",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-122"
     ]
   },
   {
     "cve_id": "CVE-2023-21823",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-190"
     ]
   },
   {
@@ -6682,9 +6710,9 @@
   },
   {
     "cve_id": "CVE-2023-23397",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-294"
+      "CWE-20"
     ]
   },
   {
@@ -6780,16 +6808,16 @@
   },
   {
     "cve_id": "CVE-2023-28229",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-591"
     ]
   },
   {
     "cve_id": "CVE-2023-28252",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-122"
     ]
   },
   {
@@ -6843,16 +6871,16 @@
   },
   {
     "cve_id": "CVE-2023-24955",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-94"
     ]
   },
   {
     "cve_id": "CVE-2023-29336",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-416"
     ]
   },
   {
@@ -6927,16 +6955,16 @@
   },
   {
     "cve_id": "CVE-2023-29357",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-303"
     ]
   },
   {
     "cve_id": "CVE-2023-29360",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-822"
     ]
   },
   {
@@ -7018,23 +7046,23 @@
   },
   {
     "cve_id": "CVE-2023-35311",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-367"
     ]
   },
   {
     "cve_id": "CVE-2023-36874",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-59"
     ]
   },
   {
     "cve_id": "CVE-2023-36884",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-362"
     ]
   },
   {
@@ -7221,16 +7249,16 @@
   },
   {
     "cve_id": "CVE-2023-36761",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-668"
+      "CWE-20"
     ]
   },
   {
     "cve_id": "CVE-2023-36802",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-416"
     ]
   },
   {
@@ -7361,9 +7389,9 @@
   },
   {
     "cve_id": "CVE-2023-36563",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-20"
     ]
   },
   {
@@ -7375,9 +7403,9 @@
   },
   {
     "cve_id": "CVE-2023-41763",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-918"
     ]
   },
   {
@@ -7406,6 +7434,13 @@
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
       "CWE-787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2023-43208",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
     ]
   },
   {
@@ -7452,16 +7487,16 @@
   },
   {
     "cve_id": "CVE-2023-36033",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-822"
     ]
   },
   {
     "cve_id": "CVE-2023-36036",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-122"
     ]
   },
   {
@@ -7556,6 +7591,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2023-7028",
+    "cwe_source": "cve@gitlab.com",
+    "cwe_array": [
+      "CWE-284"
+    ]
+  },
+  {
     "cve_id": "CVE-2023-46805",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -7605,6 +7647,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2024-1086",
+    "cwe_source": "cve-coordination@google.com",
+    "cwe_array": [
+      "CWE-416"
+    ]
+  },
+  {
     "cve_id": "CVE-2024-21893",
     "cwe_source": "nvd@nist.gov",
     "cwe_array": [
@@ -7627,9 +7676,9 @@
   },
   {
     "cve_id": "CVE-2024-21351",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-94"
     ]
   },
   {
@@ -7641,9 +7690,9 @@
   },
   {
     "cve_id": "CVE-2024-21412",
-    "cwe_source": "nvd@nist.gov",
+    "cwe_source": "secure@microsoft.com",
     "cwe_array": [
-      "CWE-none"
+      "CWE-693"
     ]
   },
   {
@@ -7682,6 +7731,13 @@
     ]
   },
   {
+    "cve_id": "CVE-2024-26169",
+    "cwe_source": "secure@microsoft.com",
+    "cwe_array": [
+      "CWE-269"
+    ]
+  },
+  {
     "cve_id": "CVE-2024-3272",
     "cwe_source": "cna@vuldb.com",
     "cwe_array": [
@@ -7710,11 +7766,123 @@
     ]
   },
   {
+    "cve_id": "CVE-2024-29988",
+    "cwe_source": "secure@microsoft.com",
+    "cwe_array": [
+      "CWE-693"
+    ]
+  },
+  {
     "cve_id": "CVE-2024-3400",
     "cwe_source": "psirt@paloaltonetworks.com",
     "cwe_array": [
       "CWE-20",
       "CWE-77"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4040",
+    "cwe_source": "430a6cef-dc26-47e3-9fa8-52fb7f19644e",
+    "cwe_array": [
+      "CWE-1336"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-20353",
+    "cwe_source": "ykramarz@cisco.com",
+    "cwe_array": [
+      "CWE-835"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-20359",
+    "cwe_source": "ykramarz@cisco.com",
+    "cwe_array": [
+      "CWE-94"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4671",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-416"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4761",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-787"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-30040",
+    "cwe_source": "secure@microsoft.com",
+    "cwe_array": [
+      "CWE-20"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-30051",
+    "cwe_source": "secure@microsoft.com",
+    "cwe_array": [
+      "CWE-122"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4947",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-843"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4978",
+    "cwe_source": "9119a7d8-5eab-497f-8521-727c672e3725",
+    "cwe_array": [
+      "CWE-506"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-5274",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-843"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-24919",
+    "cwe_source": "cve@checkpoint.com",
+    "cwe_array": [
+      "CWE-200"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4358",
+    "cwe_source": "security@progress.com",
+    "cwe_array": [
+      "CWE-290"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4610",
+    "cwe_source": "arm-security@arm.com",
+    "cwe_array": [
+      "CWE-416"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-4577",
+    "cwe_source": "security@php.net",
+    "cwe_array": [
+      "CWE-78"
+    ]
+  },
+  {
+    "cve_id": "CVE-2024-32896",
+    "cwe_source": "nvd@nist.gov",
+    "cwe_array": [
+      "CWE-none"
     ]
   }
 ]
